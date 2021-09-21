@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>blogr landing page</title>
+</head>
+
+<body>
+
+    <div>
+        <!-- banner -->
+        <div class="w-full h-96 rounded-bl-3xl sm:rounded-bl-3xl bg-banner-col">
+
+            <!-- navbar -->
+            <nav class="py-5 flex flex-row mx-20">
+                <div class=" flex flex-row">
+                    <img src="./images/logo.svg" alt="">
+
+                    <ul class=" flex flex-row text-white text-opacity-50 text-xl gap-10 mt-2 ml-4">
+
+                        <li class=" cursor-pointer group  relative dropdown hover:text-white">
+                            Product <i class="fas fa-chevron-down text-sm"></i>
+                            <div class="group-hover:block dropdown-menu absolute hidden h-auto delay-1000">
+
+                                <ul class="top-0 w-44 bg-white shadow px-6 py-8">
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Overview</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Pricing</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Marketplace</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Features</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Integration</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class=" cursor-pointer group  relative dropdown hover:text-white">
+                            Company <i class="fas fa-chevron-down text-sm"></i>
+                            <div class="group-hover:block dropdown-menu absolute hidden h-auto">
+
+                                <ul class="top-0 w-44 bg-white shadow px-6 py-8">
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">About</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Team</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Blog</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Careers</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class=" cursor-pointer group  relative dropdown hover:text-white">
+                            Connect <i class="fas fa-chevron-down text-sm"></i>
+                            <div class="group-hover:block dropdown-menu absolute hidden h-auto">
+
+                                <ul class="top-0 w-44 bg-white shadow px-6 py-8">
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Contact</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">Newsletter</a>
+                                    </li>
+
+                                    <li class="py-1"><a
+                                            class="block text-gray-700 font-bold hover:text-black cursor-pointer">LinkedIn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" flex flex-1 justify-end gap-7">
+                    <p class=" text-white text-opacity-50 mt-2 text-xl  cursor-pointer duration-500 hover:text-white">
+                        Login
+                    </p>
+                    <button class=" bg-white text-banner-col font-bold px-4 rounded-l-full rounded-r-full duration-500
+                        hover:bg-opacity-20 hover:text-white">Sign Up</button>
+                </div>
+
+
+
+            </nav>
+
+            <!-- center part -->
+            <div class="my-14 text-center">
+                <p class=" text-5xl text-white font-bold">A modern publishing platform</p>
+                <p class=" my-4 text-2xl text-white">Grow your audience and build your online brand</p>
+                <button class=" bg-white text-banner-col font-bold py-3 px-4 rounded-l-full rounded-r-full mr-3 duration-500
+                    hover:bg-opacity-20 hover:text-white">Start for Free
+                </button>
+
+                <button
+                    class=" text-white border-2 border-white font-bold py-2 px-4 rounded-l-full rounded-r-full duration-500 hover:bg-white hover:text-banner-col">Learn
+                    More
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 1 -->
+    <div>
+        <p class=" text-center text-4xl font-bold mt-32">Designed for the future</p>
+        <div class="mt-10 flex flex-row section1">
+            <div class=" mt-10">
+                <div class=" w-96 ml-20 text">
+                    <!-- text box 1 -->
+                    <h1 class=" text-2xl font-bold">Introducing an extensible editor</h1>
+                    <p class=" mt-3">Blogr features an exceedingly intuitive interface which lets you focus on one
+                        thing: creating
+                        content. The editor
+                        supports management of multiple blogs and allows easy manipulation of embeds such as images,
+                        videos, and Markdown.
+                        Extensibility with plugins and themes provide easy ways to add functionality or change the
+                        looks
+                        of a blog.
+                    </p>
+                </div>
+
+                <br>
+
+                <div class=" w-96 ml-20 text">
+                    <h1 class="text-2xl font-bold">Robust content management</h1>
+                    <p class=" mt-3">Flexible content management enables users to easily move through posts.
+                        Increase
+                        the usability of
+                        your blog by adding
+                        customized categories, sections, format, or flow. With this functionality, you’re in full
+                        control.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- <img src="./images/illustration-editor-desktop.svg" alt="" class=" sm:max-w-md ml:10 sm:ml-auto"> -->
+
+            <img src="./images/illustration-editor-desktop.svg" alt="" class=" image">
+
+        </div>
+    </div>
+
+    <!-- section2 -->
+    <div class="">
+        <div class=" w-full h-72  bg-mid-col relative mt-32 flex flex-row sec2-br section2">
+            <img src="./images/illustration-phones.svg" alt="" class="max-w-sm absolute image2">
+            <div class=" mt-16 flex flex-1 justify-end section2text">
+                <div class="mr-28">
+                    <h1 class=" text-white text-3xl">State of the art infrastructure</h1> <br>
+                    <p class=" w-96 text-white">With reliability and speed in mind, worldwide data centers provide
+                        the
+                        backbone for
+                        ultra-fast
+                        connectivity. This
+                        ensures your site will load instantly, no matter where your readers are, keeping your site
+                        competitive.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- section3 -->
+    <div class=" mt-40">
+        <div class=" flex flex-row section3">
+            <img src="./images/illustration-laptop-desktop.svg" alt="" class=" image">
+
+            <div class=" flex flex-1 justify-end ">
+                <div class=" w-96 mr-20 text">
+                    <h1 class=" font-bold text-2xl">Free, open, simple</h1> <br>
+                    <p class=" mb-10">Blogr is a free and open source application backed by a large community of
+                        helpful
+                        developers. It
+                        supports features such
+                        as code syntax highlighting, RSS feeds, social media integration, third-party commenting
+                        tools,
+                        and works seamlessly
+                        with Google Analytics. The architecture is clean and is relatively easy to learn.
+                    </p>
+
+
+
+                    <h1 class="font-bold text-2xl">Powerful Tooling</h1> <br>
+                    <p>Batteries included. We built a simple and straightforward CLI tool that makes customization
+                        and deployment a breeze, but
+                        capable of producing even the most complicated sites.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class=" mt-40">
+        <div class=" w-full h-80 fr-br bg-footer-col py-10">
+
+            <div class=" ">
+                <div class=" flex flex-row justify-evenly">
+                    <img src="./images/logo.svg" alt="" class=" h-12">
+
+                    <div>
+                        <p class=" mb-5 font-bold text-white text-xl">Product</p>
+                        <ul class="">
+                            <li class=" text-gray-400 hover:text-white cursor-pointer">Overview</li>
+                            <li class=" text-gray-400 hover:text-white mt-2 cursor-pointer">Pricing</li>
+                            <li class="text-gray-400 hover:text-white mt-2">Marketplace</li>
+                            <li class="text-gray-400 hover:text-white mt-2">Features</li>
+                            <li class="text-gray-400 hover:text-white mt-2">Integration</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <p class=" mb-5 font-bold text-xl text-white">Company</p>
+                        <ul class=" cursor-pointer">
+                            <li class=" text-gray-400 hover:text-white cursor-pointer">About</li>
+                            <li class=" text-gray-400 hover:text-white mt-2 cursor-pointer">Team</li>
+                            <li class="text-gray-400 hover:text-white mt-2 cursor-pointer">Blog</li>
+                            <li class="text-gray-400 hover:text-white mt-2 cursor-pointer">Careers</li>
+                        </ul>
+                    </div>
+
+                    <div>
+
+                        <p class=" mb-5 font-bold text-xl text-white">Connect</p>
+                        <ul class=" ">
+                            <li class=" text-gray-400 hover:text-white cursor-pointer">Contact</li>
+                            <li class=" text-gray-400 hover:text-white mt-2 cursor-pointer">Newsletter</li>
+                            <li class="text-gray-400 hover:text-white mt-2 cursor-pointer">LinkedIn</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
