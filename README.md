@@ -1,4 +1,4 @@
-# tailwind-proj5
+# tailwind-proj5(blogr landing page)
 
 github pages link:https://worldsmarta.github.io/tailwind-proj5/
 
